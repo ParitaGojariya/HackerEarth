@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">HackerEarth</string>
+    <string name="EnterYourName">Enter your Name</string>
+    <string name="Password">Password</string>
+    <string name="LogOut">Log Out</string>
+    <string name="MLT">Medical Lab Tehcnology</string>
+    <string name="MLT1">1ST M.L.T.</string>
+    <string name="MLT2">2nd M.L.T.</string>
+    <string name="MLT3">3RD M.L.T.</string>
+    <string name="open">open</string>
+    <string name="OPTO">Optometry</string>
+    <string name="OPTO1">1ST Optometry</string>
+    <string name="OPTO2">2ND Optometry</string>
+    <string name="OPTO3">3RD Optometry</string>
+    <string name="OPTO4">4TH Optometry</string>
+
+    <string name="BTECH">BTECH</string>
+    <string name="IBTECH">INTEGRATED</string>
+    <string name="BTECH1">1ST BTECH</string>
+    <string name="BTECH2">2ND BTECH</string>
+    <string name="BTECH3">3RD BTECH</string>
+    <string name="BTECH4">4TH BTECH</string>
+    <string name="MBA1">1ST M.B.A</string>
+    <string name="MBA2">2ND M.B.A</string>
+    <string name="MBA3">3RD M.B.A</string>
+    <string name="BBA1">1ST B.B.A</string>
+    <string name="BBA2">2ND B.B.A</string>
+    <string name="BBA3">3RD B.B.A</string>
+    <string name="ANM">A.N.M.</string>
+    <string name="ANM1">1ST A.N.M.</string>
+    <string name="ANM2">2ND A.N.M.</string>
+    <string name="GNM">G.N.M</string>
+    <string name="GNM1">1ST G.N.M</string>
+    <string name="GNM2">2ND G.N.M</string>
+    <string name="GNM3">3RD G.N.M</string>
+    <string name="INDCHE1">1ST Ind. Chemistry</string>
+    <string name="INDCHE2">2ND Ind. Chemistry</string>
+    <string name="INDCHE3">3TH Ind. Chemistry</string>
+
+    <string name="IBTECH1">1ST INTEGRATED</string>
+    <string name="IBTECH2">2ND INTEGRATED</string>
+    <string name="IBTECH3">3RD INTEGRATED</string>
+    <string name="bba">B.B.A.</string>
+    <string name="mba">M.B.A.</string>
+
+
+    <string name="CSE">CSE</string>
+    <string name="CE">CE</string>
+    <string name="ME">ME</string>
+    <string name="EEE">EEE</string>
+    <string name="Engineering">Engineering</string>
+    <string name="Managment">Managment</string>
+    <string name="Health_Science">Health Science</string>
+    <string name="Ind_Chemical">Ind. Chemical</string>
+    <string name="Logout">Logout</string>
+
+
+    <string name="close">close</string>
+</resources>

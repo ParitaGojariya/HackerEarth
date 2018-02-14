@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "338398417020",
+    "firebase_url": "https://hackerearth-7debd.firebaseio.com",
+    "project_id": "hackerearth-7debd",
+    "storage_bucket": "hackerearth-7debd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:338398417020:android:b8626423efb80f67",
+        "android_client_info": {
+          "package_name": "com.example.asus.hackerearth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "338398417020-ab9l4ouv73n0tdm50mtims517070cis8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.asus.hackerearth",
+            "certificate_hash": "f2ffbcc7cde7f0660d0b3e5311449dc173f3e276"
+          }
+        },
+        {
+          "client_id": "338398417020-vn2jhe8tnh7ennmrg50mtuj8473kbso2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAW2qhvK4uniBN8xLy1rzrG5N2GrmqPYzg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "338398417020-vn2jhe8tnh7ennmrg50mtuj8473kbso2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

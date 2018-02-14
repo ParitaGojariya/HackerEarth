@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.asus.hackerearth.Engineering">
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:columnCount="1"
+        android:padding="14dp"
+        android:rowCount="2"
+        android:layout_weight="8">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:onClick="btech"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            app:cardElevation="20dp"
+            android:layout_margin="16dp">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center_horizontal|center_vertical">
+            <ImageView
+                android:src="@drawable/ic_today_black_24dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                />
+            <TextView
+                android:text="@string/BTECH"
+                android:textColor="#303F9F"
+                android:textSize="30sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"/>
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:onClick="integrated"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            app:cardElevation="20dp"
+            android:layout_margin="16dp">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center_horizontal|center_vertical">
+                <ImageView
+                    android:src="@drawable/ic_today_black_24dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    />
+                <TextView
+                    android:text="@string/IBTECH"
+                    android:textColor="#303F9F"
+                    android:textSize="30sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"/>
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+
+
+
+
+    </GridLayout>
+
+</LinearLayout>

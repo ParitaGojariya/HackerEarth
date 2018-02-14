@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.asus.hackerearth">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".HOME" />
+        <activity android:name=".IBetch" />
+        <activity android:name=".ENGINEERING" />
+        <activity android:name=".home" />
+        <activity android:name=".Engineering" />
+        <activity android:name=".btech" />
+        <activity android:name=".integrated" />
+        <activity android:name=".Managment" />
+        <activity android:name=".mba" />
+        <activity android:name=".bba" />
+        <activity android:name=".health" />
+        <activity android:name=".anm" />
+        <activity android:name=".gnm" />
+        <activity android:name=".indchemistry" />
+        <activity android:name=".btechOne" />
+        <activity android:name=".btechTwo" />
+        <activity android:name=".btechThree" />
+        <activity android:name=".btechFour" />
+        <activity android:name=".IndOne" />
+        <activity android:name=".IndTwo" />
+        <activity android:name=".IntThree" />
+        <activity android:name=".IntFour" />
+        <activity android:name=".anmOne" />
+        <activity android:name=".anmTwo" />
+        <activity android:name=".anmThree" />
+        <activity android:name=".gnmOne" />
+        <activity android:name=".gnmTwo" />
+        <activity android:name=".gnmThree" />
+        <activity android:name=".IntTwo" />
+        <activity android:name=".IntOne" />
+        <activity android:name=".bbaOne" />
+        <activity android:name=".bbaTwo" />
+        <activity android:name=".bbaThree" />
+        <activity android:name=".mbaOne" />
+        <activity android:name=".mbaTwo" />
+        <activity android:name=".mbaThree" />
+        <activity android:name=".indcheOne" />
+        <activity android:name=".indcheTwo" />
+        <activity android:name=".indcheThree" />
+        <activity android:name=".mlt" />
+        <activity android:name=".mltOne" />
+        <activity android:name=".mltTwo" />
+        <activity android:name=".mltThree" />
+        <activity android:name=".optoOne" />
+        <activity android:name=".optometry" />
+        <activity android:name=".optoTwo" />
+        <activity android:name=".optoThree" />
+        <activity android:name=".optoFour"></activity>
+    </application>
+
+</manifest>
