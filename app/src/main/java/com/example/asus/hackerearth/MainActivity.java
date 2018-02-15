@@ -41,7 +41,6 @@ public class MainActivity extends AppCompatActivity {
         mAuth = FirebaseAuth.getInstance();
         //find button
 
-        startActivity(new Intent(MainActivity.this,home.class));
         if (mAuth.getCurrentUser()!=null){
             startActivity(new Intent(MainActivity.this,home.class));
         }
@@ -120,7 +119,6 @@ public class MainActivity extends AppCompatActivity {
                         }else{
                             startActivity(new Intent(MainActivity.this,home.class));
                         }
-                        startActivity(new Intent(MainActivity.this,home.class));
                         // ...
                     }
                 });

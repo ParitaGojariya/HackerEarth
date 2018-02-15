@@ -46,7 +46,7 @@ public class indcheTwo extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 DATA data = new DATA();
-                data.setName("infi");
+                data.setName(auth.getCurrentUser().getDisplayName());
                 data.setMsg(editText_editdata.getText().toString().trim());
                 FirebaseDatabase firebaseDatabase = FirebaseDatabase.getInstance();
                 DatabaseReference myref = firebaseDatabase.getReference().child("INDCHETWO");
