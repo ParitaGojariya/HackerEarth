@@ -49,7 +49,7 @@ public class mbaOne extends AppCompatActivity {
                 data.setName("infi");
                 data.setMsg(editText_editdata.getText().toString().trim());
                 FirebaseDatabase firebaseDatabase = FirebaseDatabase.getInstance();
-                DatabaseReference myref = firebaseDatabase.getReference().child("INTTWO");
+                DatabaseReference myref = firebaseDatabase.getReference().child("MBAONE");
 
                 myref.push().setValue(data).addOnCompleteListener(new OnCompleteListener<Void>() {
                     @Override
@@ -63,7 +63,7 @@ public class mbaOne extends AppCompatActivity {
 
     public void getusers(){
         final FirebaseDatabase fd = FirebaseDatabase.getInstance();
-        DatabaseReference myref = fd.getReference().child("INTTWO");
+        DatabaseReference myref = fd.getReference().child("MBAONE");
         myref.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
