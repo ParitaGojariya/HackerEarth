@@ -4,11 +4,38 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="horizontal"
-    tools:context="com.example.asus.hackerearth.mltTwo">
-    <TextView
+    tools:context="com.example.asus.hackerearth.mltTwo"
+    android:orientation="vertical"
+    android:weightSum="2">
+
+    <ListView
+        android:layout_weight="0.2"
+        android:id="@+id/List_View"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </ListView>
+
+    <LinearLayout
+        android:layout_weight="1.8"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/MLT2"/>
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/editdata"
+            android:layout_weight="0.5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <Button
+            android:id="@+id/send"
+            android:layout_weight="1.5"
+            android:text="Send"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
 
 </LinearLayout>
